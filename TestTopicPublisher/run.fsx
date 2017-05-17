@@ -1,5 +1,6 @@
 #load "../.paket/load/main.group.fsx"
 #r "System.Runtime.Serialization"
+#r "Microsoft.ServiceBus"
 
 open System
 open System.Net
