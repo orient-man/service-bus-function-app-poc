@@ -1,0 +1,19 @@
+{
+  "bindings": [
+    {
+      "name": "myTimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 */5 * * * *"
+    },
+    {
+      "type": "serviceBus",
+      "name": "$return",
+      "queueName": "testqueue1",
+      "connection": "TestConnection",
+      "accessRights_": "Send",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}

@@ -1,0 +1,22 @@
+{
+  "bindings": [
+    {
+      "type": "httpTrigger",
+      "name": "req",
+      "authLevel": "function",
+      "methods": [
+        "post"
+      ],
+      "direction": "in"
+    },
+    {
+      "type": "serviceBus",
+      "name": "$return",
+      "connection": "TestConnection",
+      "accessRights_": "Send",
+      "direction": "out",
+      "topicName": "shorttopic"
+    }
+  ],
+  "disabled": false
+}

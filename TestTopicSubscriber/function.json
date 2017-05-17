@@ -1,0 +1,14 @@
+{
+  "bindings": [
+    {
+      "name": "mySbMsg",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "topicName": "testtopic",
+      "subscriptionName": "servicebustopicsubscriber",
+      "connection": "TestConnection",
+      "accessRights": "listen"
+    }
+  ],
+  "disabled": false
+}

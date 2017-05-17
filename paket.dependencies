@@ -1,0 +1,8 @@
+source https://www.nuget.org/api/v2
+generate_load_scripts: true
+framework: net45
+
+nuget Microsoft.AspNet.WebApi
+nuget Microsoft.Azure.WebJobs
+nuget Microsoft.Azure.WebJobs.Extensions
+nuget WindowsAzure.ServiceBus

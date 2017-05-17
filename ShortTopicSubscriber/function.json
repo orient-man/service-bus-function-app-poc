@@ -1,0 +1,14 @@
+{
+  "bindings": [
+    {
+      "name": "mySbMsg",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "topicName": "shorttopic",
+      "subscriptionName": "testsubs",
+      "connection": "TestConnection",
+      "accessRights": "send"
+    }
+  ],
+  "disabled": false
+}
